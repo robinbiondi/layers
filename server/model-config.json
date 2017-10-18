@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "loopback/server/interface",
+      "../common/models",
+      "./models",
+      "./interface"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "developer": {
+    "dataSource": "postgres",
+    "public": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "storage": {
+    "name": "storage",
+    "localStorage": "",
+    "file": "",
+    "connector": "memory"
+  },
+  "postgres": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "layers",
+    "password": "Kerasta24-aws",
+    "name": "postgres",
+    "user": "root",
+    "connector": "postgresql"
+  }
+}
